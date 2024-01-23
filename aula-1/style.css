@@ -55,7 +55,8 @@ body {
 
 .library__content {
     background: transparent;
-    display: space-between;
+    display: flex;
+    justify-content: space-between;
     border-radius: 8px;
     padding: 16px 0 20px 16px;
     color: #b3b3b3;
@@ -80,4 +81,5 @@ body {
     font-weight: 600;
     font-size: 18px;
     font-family: "DM Sans", sans-serif;
+    padding: 0 15px 0 0;
 }
