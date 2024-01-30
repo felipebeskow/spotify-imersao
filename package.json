@@ -1,0 +1,27 @@
+{
+  "name": "spotify-imersao",
+  "description": "Este projeto é um clone frontend do Spotify, criado como parte da Semana de Imersão Frontend da Alura. #ImersãoFrontEnd #Alura",
+  "version": "1.0.0",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch api-artists/artists.json --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipebeskow/spotify-imersao.git"
+  },
+  "keywords": [
+    "alura",
+    "imersao",
+    "front-end"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipebeskow/spotify-imersao/issues"
+  },
+  "homepage": "https://github.com/felipebeskow/spotify-imersao#readme"
+}
