@@ -3,7 +3,7 @@ const playlistContainer = document.getElementById("result-playlists");
 const searchInput = document.getElementById("search-input");
 
 function requestApi(searchTerm) {
-  fetch(`http://localhost:3000/artists?name_like=${searchTerm}`)
+  fetch(`https://imersao-spotify-felipe-beskow.onrender.com/artists?name_like=${searchTerm}`)
     .then((response) => response.json())
     .then((results) => displayResults(results));
 }
